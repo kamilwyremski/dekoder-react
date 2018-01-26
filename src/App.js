@@ -10,11 +10,12 @@ import {
 
 import Home from './Home';
 import Skrypty from './Skrypty';
+import TestKomponentu from './TestKomponentu/TestKomponentu';
 
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={'/dekoder-react/build'}>
         <div>
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,11 +35,12 @@ class App extends Component {
           <div className="container">
             <div className="text-center">
               <h1>
-                Witaj na stronie title!
+                Witaj na stronie!
               </h1>
             </div>
             <Route exact path="/" component={Home} />
             <Route path="/skrypty" component={Skrypty} />
+            <TestKomponentu></TestKomponentu>
           </div>
         </div>
       </Router>

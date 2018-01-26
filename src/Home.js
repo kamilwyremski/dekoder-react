@@ -21,6 +21,7 @@ class Home extends React.Component {
       input_xor_klucz: 6
     };
     this.handleChange = this.handleChange.bind(this);
+
   }
   encode64 = () => {
     this.setState({
