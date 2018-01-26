@@ -91,7 +91,7 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <p>Jest to kopia strony <a href="https://uw-team.org/dekoder.html">https://uw-team.org/dekoder.html</a> stworzona w celu nauki Angular</p>
+        <p>Jest to kopia strony <a href="https://uw-team.org/dekoder.html">https://uw-team.org/dekoder.html</a> stworzona w celu nauki React</p>
 
         <form>
           <h3>Base64</h3>
